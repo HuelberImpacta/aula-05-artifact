@@ -15,7 +15,7 @@ jobs:
   build-go:
     name: Build Go
     runs-on: ubuntu-latest
-      steps:
+    steps:
 
       - name: Checkout Go code
         uses: actions/checkout@v2
